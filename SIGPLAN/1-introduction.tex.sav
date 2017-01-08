@@ -1,0 +1,47 @@
+\section{Introduction}
+\label{sec:intro}
+
+% 1.deep learning and convolutional neural network are more and more applied in daily-life, and in smart-phone,embedded system has some applications.
+% 2.there some question in embedded system trained and more and more application or previous works for android and ios.
+% 3. there are some state-of-the-art cnn, accuracy is not good , the higher number of trained set is more high accuary, and
+
+%4.in traditional machine learning, the incremental learning,cloud as assistance
+In the recent decade, deep neural networks have a prominent performance in many high-impact machine learning applications. These include speech recognition~\cite{hinton2012deep},object classification~\cite{K-2012-imagenet,sermanet2013overfeat},image caption generation~\cite{vinyals2015show,karpathy2015deep} and semantic segmentation~\cite{semantic-1,semantic-2,semantic-3}. As the size of data sets is increasingly large, so do the number of parameters in deep neural networks for the sake of comprehending the enormous amount of useful information contained in data sets, such as some modern networks like AlexNet~\cite{K-2012-imagenet}(60M parameters), and VGG-16~\cite{vgg-16}(130M parameters).
+
+Large DNN models are very powerful but energy-consumed and time-consuming, especially during training~\cite{K-2012-imagenet,vgg-16}. Thus training these network on wearable, smartphones and Internet-of-Things devices are impractical. As a result, prominent examples of deep learning applied on smart-phones(e.g.,speech recognition) are primarily cloud-supported. Hence increasingly, these networks are trained on industrial-sized clusters~\cite{le2013building} or high-performance graphics processing units(GPUs)~\cite{catanzaro2013deep,hauswald2015djinn}. What's more, in the actual industry, there is a significant class of emerging internet services known as intelligent personal assistants(IPAs), like Apple Siri, Google Now, Microsoft Cortana and Amazon Echo. However, the cloud-assisted pattern introduces important negative side-effects: 1) it raises an issue with regard to user privacy~\cite{harris2015your} as some sensitive data (e.g.,audio or video) is processed in the cloud by a third party; and 2)it only works when sufficient bandwidth is feasible and suffers artificial delays through network traffic~\cite{kosnerclient}(i.e., latency,throughput).
+
+To solve the above problems, several kinds of emerging solutions have been proposed. A kind of solutions is to directly train small models for the on-device classification; however, these tend to observably impact accuracy~\cite{chun2009augmented}, leading to customer discontent. Another kind of solutions is to compress pre-trained deep networks, which have been trained on industrial-sized clusters(server-side). More and more researchers are studying in this direction. Recent work by Denil et.al.~\cite{denil2013predicting} proves that there exists a amazingly large amount of redundancy among the weights of deep neural networks. The authors point out that a slight amounts of the weights are adequate to reconstruct the entire network. Accordingly, through pruning the redundant, non-informative weights, the size of large trained neural networks can be reduced up to 50X~\cite{han2015learning,han2015deep} without any loss of accuracy. More recently, other various methods based on low-rank decomposition~\cite{denton2014exploiting}, vector quantization~\cite{gong2014compressing}, hashing techniques~\cite{chen2015compressing}, circulant projection~\cite{cheng2015fast}, tensor train decomposition~\cite{novikov2015tensorizing}, and network binarization~\cite{courbariaux2014training,courbariaux2015binaryconnect} were proposed without significant drop in the prediction accuracy.
+
+In a word, Compression is an effective way to transfer clumsy neural networks from server-side into mobile-side. A obvious advantage here is that these compression schemes may actualize local processing and storage of neural networks, and to some extent, protect user privacy as well as avoid the response delays and energy consumption from bandwidth restrictions. However, in these pattern, the neural networks deployed on mobile devices is fixed and can not relearn against reality.
+
+As increasing works have successfully achieve the application of deep neural networks without compression on mobile devices~\cite{latifi2016cnndroid,oskouei2015gpu,brandle2015face,yanai2016efficient,mittal2016spotgarbage,cnnforandroid}. It is imperative to further enhance the interaction with the mobile end user. For example,
+
+In this paper, we propose an application frameworks 
+
+Overall, this paper makes the following contributions.
+
+
+
+
+%实验结果，以及一些结论
+
+% the overarching goal of this paper is
+%spurious uploads.
+%facilitating its usage in resource constrained smartphone.
+%Thus, the solution should try to avoid uploading every image, and rather process them on the phone itself.
+%and it should send minimal information such as GPS-coordinates/ severity of garbage and optionally, a segmented region of the image containing the garbage over the network.
+%according the prediction result,  give a severity of error recognition. we will do some work in accordance with it.
+
+%This compression scheme may achieve local processing of mobile phones, to a certain extent, to protect the user's privacy and security to avoid bandwidth constraints, but this solidified the model results, no learning ability
+%尽管存在越来越多的努力将cnn部署到移动设备中，但是仅仅是使用已经训练好的模型，而不能实现移动端的再训练学习。
+%Although there are more and more efforts to deploy CNN to mobile devices, but only using trained models, but can not achieve mobile terminal retraining study.
+%In addition, 
+
+
+
+
+As the most representative networks like AlexNet(240MB), and VGG-16(520MB), are too large to deploy on mobile devices and embedded systems.
+
+
+Deploying convolutional neural networks(CNNs) for various intelligent tasks on embedded and mobile devices(e.g., smartphones) is obtaining more and more attention.
+ 

@@ -1,0 +1,206 @@
+@inproceedings{semantic-1,
+  title={Fully convolutional networks for semantic segmentation},
+  author={Long, Jonathan and Shelhamer, Evan and Darrell, Trevor},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={3431--3440},
+  year={2015}
+}
+
+@inproceedings{semantic-2,
+  title={Convolutional feature masking for joint object and stuff segmentation},
+  author={Dai, Jifeng and He, Kaiming and Sun, Jian},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={3992--4000},
+  year={2015}
+}
+
+@inproceedings{semantic-3,
+  title={Hypercolumns for object segmentation and fine-grained localization},
+  author={Hariharan, Bharath and Arbel{\'a}ez, Pablo and Girshick, Ross and Malik, Jitendra},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={447--456},
+  year={2015}
+}
+
+@inproceedings{K-2012-imagenet,
+  title={Imagenet classification with deep convolutional neural networks},
+  author={Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E},
+  booktitle={Advances in neural information processing systems},
+  pages={1097--1105},
+  year={2012}
+}
+
+@article{sermanet2013overfeat,
+  title={Overfeat: Integrated recognition, localization and detection using convolutional networks},
+  author={Sermanet, Pierre and Eigen, David and Zhang, Xiang and Mathieu, Micha{\"e}l and Fergus, Rob and LeCun, Yann},
+  journal={arXiv preprint arXiv:1312.6229},
+  year={2013}
+}
+
+@article{hinton2012deep,
+  title={Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups},
+  author={Hinton, Geoffrey and Deng, Li and Yu, Dong and Dahl, George E and Mohamed, Abdel-rahman and Jaitly, Navdeep and Senior, Andrew and Vanhoucke, Vincent and Nguyen, Patrick and Sainath, Tara N and others},
+  journal={IEEE Signal Processing Magazine},
+  volume={29},
+  number={6},
+  pages={82--97},
+  year={2012},
+  publisher={IEEE}
+}
+
+@inproceedings{vinyals2015show,
+  title={Show and tell: A neural image caption generator},
+  author={Vinyals, Oriol and Toshev, Alexander and Bengio, Samy and Erhan, Dumitru},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={3156--3164},
+  year={2015}
+}
+@inproceedings{karpathy2015deep,
+  title={Deep visual-semantic alignments for generating image descriptions},
+  author={Karpathy, Andrej and Fei-Fei, Li},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={3128--3137},
+  year={2015}
+}
+
+@inproceedings{le2013building,
+  title={Building high-level features using large scale unsupervised learning},
+  author={Le, Quoc V},
+  booktitle={2013 IEEE international conference on acoustics, speech and signal processing},
+  pages={8595--8598},
+  year={2013},
+  organization={IEEE}
+}
+@article{catanzaro2013deep,
+  title={Deep learning with COTS HPC systems},
+  author={Catanzaro, Bryan},
+  year={2013}
+}
+
+@inproceedings{hauswald2015djinn,
+  title={DjiNN and Tonic: DNN as a service and its implications for future warehouse scale computers},
+  author={Hauswald, Johann and Kang, Yiping and Laurenzano, Michael A and Chen, Quan and Li, Cheng and Mudge, Trevor and Dreslinski, Ronald G and Mars, Jason and Tang, Lingjia},
+  booktitle={ACM SIGARCH Computer Architecture News},
+  volume={43},
+  number={3},
+  pages={27--40},
+  year={2015},
+  organization={ACM}
+}
+
+@article{harris2015your,
+  title={Your Samsung SmartTV Is spying on you, basically},
+  author={Harris, Shane},
+  journal={The Daily Beast},
+  year={2015}
+}
+
+@article{kosnerclient,
+  title={Client vs. server architecture: Why google voice search is also much faster than siri@ ONLINE, October 2012},
+  author={Kosner, AW},
+  journal={URL http://tinyurl. com/c2d2otr}
+}
+@article{vgg-16,
+  title={Very Deep Convolutional Networks for Large-Scale Image Recognition},
+  author={Simonyan, Karen and Zisserman, Andrew},
+  journal={CoRR,abs/1409},
+  year={2014}
+}
+@inproceedings{chun2009augmented,
+  title={Augmented Smartphone Applications Through Clone Cloud Execution.},
+  author={Chun, Byung-Gon and Maniatis, Petros},
+  booktitle={HotOS},
+  volume={9},
+  pages={8--11},
+  year={2009}
+}
+
+@inproceedings{denil2013predicting,
+  title={Predicting parameters in deep learning},
+  author={Denil, Misha and Shakibi, Babak and Dinh, Laurent and de Freitas, Nando and others},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={2148--2156},
+  year={2013}
+}
+
+@article{han2015deep,
+  title={Deep compression: Compressing deep neural network with pruning, trained quantization and huffman coding},
+  author={Han, Song and Mao, Huizi and Dally, William J},
+  journal={CoRR, abs/1510.00149},
+  volume={2},
+  year={2015}
+}
+
+@inproceedings{han2015learning,
+  title={Learning both weights and connections for efficient neural network},
+  author={Han, Song and Pool, Jeff and Tran, John and Dally, William},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={1135--1143},
+  year={2015}
+}
+@article{chen2015compressing,
+  title={Compressing neural networks with the hashing trick},
+  author={Chen, Wenlin and Wilson, James T and Tyree, Stephen and Weinberger, Kilian Q and Chen, Yixin},
+  journal={CoRR, abs/1504.04788},
+  year={2015}
+}
+@article{cheng2015fast,
+  title={Fast neural networks with circulant projections},
+  author={Cheng, Yu and Felix, X Yu and Feris, Rogerio S and Kumar, Sanjiv and Choudhary, Alok and Chang, Shih-Fu},
+  journal={arXiv preprint arXiv:1502.03436},
+  year={2015}
+}
+@inproceedings{novikov2015tensorizing,
+  title={Tensorizing neural networks},
+  author={Novikov, Alexander and Podoprikhin, Dmitrii and Osokin, Anton and Vetrov, Dmitry P},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={442--450},
+  year={2015}
+}
+
+@article{gong2014compressing,
+  title={Compressing deep convolutional networks using vector quantization},
+  author={Gong, Yunchao and Liu, Liu and Yang, Ming and Bourdev, Lubomir},
+  journal={arXiv preprint arXiv:1412.6115},
+  year={2014}
+}
+@inproceedings{denton2014exploiting,
+  title={Exploiting linear structure within convolutional networks for efficient evaluation},
+  author={Denton, Emily L and Zaremba, Wojciech and Bruna, Joan and LeCun, Yann and Fergus, Rob},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={1269--1277},
+  year={2014}
+}
+@article{courbariaux2014training,
+  title={Training deep neural networks with low precision multiplications},
+  author={Courbariaux, Matthieu and David, Jean-Pierre and Bengio, Yoshua},
+  journal={arXiv preprint arXiv:1412.7024},
+  year={2014}
+}
+@inproceedings{latifi2016cnndroid,
+  title={CNNdroid: GPU-Accelerated Execution of Trained Deep Convolutional Neural Networks on Android},
+  author={Latifi Oskouei, Seyyed Salar and Golestani, Hossein and Hashemi, Matin and Ghiasi, Soheil},
+  booktitle={Proceedings of the 2016 ACM on Multimedia Conference},
+  pages={1201--1205},
+  year={2016},
+  organization={ACM}
+}
+@article{oskouei2015gpu,
+  title={GPU-based Acceleration of Deep Convolutional Neural Networks on Mobile Platforms},
+  author={Oskouei, Seyyed Salar Latifi and Golestani, Hossein and Kachuee, Mohamad and Hashemi, Matin and Mohammadzade, Hoda and Ghiasi, Soheil},
+  journal={arXiv preprint arXiv:1511.07376},
+  year={2015}
+}
+@article{brandle2015face,
+  title={Face recognition with deep learning for mobile applications},
+  author={Br{\"a}ndle, Johannes and Eppler, Christian and M{\"o}bius, Stefan},
+  year={2015}
+}
+
+@inproceedings{courbariaux2015binaryconnect,
+  title={Binaryconnect: Training deep neural networks with binary weights during propagations},
+  author={Courbariaux, Matthieu and Bengio, Yoshua and David, Jean-Pierre},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={3123--3131},
+  year={2015}
+}
